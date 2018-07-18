@@ -1,0 +1,42 @@
+{
+  "name": "wowoohr-tcli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "znn",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node build/start.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.3",
+    "html-webpack-plugin": "^3.2.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "react-hot-loader": "^4.3.3",
+    "ts-loader": "^4.4.2",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-hot-middleware": "^2.22.2",
+    "webpack-merge": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "axios": "^0.18.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
